@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <time.h>
-#define SIZE 1000000
-// Basically outputting time taken to search all elements in the array.
+#define SIZE 100000
 
 bool sequential_search(int arr[], int n, int value);
 bool binary_search(int arr[], int lower, int upper, int value);
